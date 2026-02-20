@@ -1,11 +1,12 @@
-# Main Calculator File 
-# main.py
-
-# Placeholder functions (will import later)
+from add import add
+from sub import sub
+from mul import mul
 
 def main():
     print("Calculator Application")
-    print("Features will be integrated after merging.")
+    print("Addition:", add(5, 3))
+    print("Subtraction:", sub(5, 3))
+    print("Multiplication:", mul(5, 3))
 
 if __name__ == "__main__":
     main()
